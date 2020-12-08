@@ -26,6 +26,7 @@ body {
 .section-login .container .kanan {
   height: 500px;
   overflow-y: auto;
+  overflow-x: hidden;
   margin: 0px 0px 50px 0px;
   padding-left: 20px;
   font-family: 'Roboto';
@@ -49,7 +50,9 @@ body {
 }
 
 .section-login .container .kanan .login-session .row {
+  margin-top: 20px;
   margin-left: 0px;
+  margin-bottom: 20px;
 }
 
 .section-login .container .kanan .login-session .row .col {
@@ -61,13 +64,13 @@ body {
   margin-top: 20px;
 }
 
-.section-login .container .kanan .login-session input {
+.section-login .container .kanan .login-session input, .section-login .container .kanan .login-session textarea {
   padding: 20px;
   border-radius: 4px;
   background: transparent;
 }
 
-.section-login .container .kanan .login-session input:focus {
+.section-login .container .kanan .login-session input:focus, .section-login .container .kanan .login-session textarea:focus {
   border: 2px solid #6200ee;
 }
 

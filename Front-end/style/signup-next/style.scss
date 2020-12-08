@@ -25,6 +25,7 @@ body{
         .kanan{
             height: 500px;
             overflow-y: auto;
+            overflow-x: hidden;
             margin: 0px 0px 50px 0px;
             padding-left: 20px;
             font-family: 'Roboto';
@@ -49,7 +50,9 @@ body{
                     }
                 }
                 .row{
+                    margin-top: 20px;
                     margin-left: 0px;
+                    margin-bottom: 20px;
                     .col{
                         padding-left: 0px;
                     }
@@ -61,7 +64,7 @@ body{
                     margin-top: 20px;
                 }
 
-                input{
+                input,textarea{
                     padding: 20px;
                     border-radius: 4px;
                     background: transparent;

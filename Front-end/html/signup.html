@@ -21,32 +21,86 @@
     <div class="section-login">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12 kiri">
+                <div class="col-lg-5 col-md-12 col-sm-12 kiri">
                     <img src="../../Files/components/signup/signup-image.png" alt="">
                 </div>
-                <div class="col-lg-6 col-md-12 kanan">
+                <div class="col-lg-7 col-md-12 col-sm-12 kanan">
                     <div class="login-session">
-                        <a href="home.html" class="back" >
+                        <br>
+                        <a href="signin.html" class="back" >
                             <i class="fa fa-arrow-left" style="font-size:20px"></i>
                         </a>
 
                         <p>DAFTAR</p>
 
                         <form class="form-signIn">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="NamaDepan" for="email">Nama Depan</label>
+                                        <input type="text" class="form-control" name="NamaDepan" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="NamaBelakang">Nama Belakang</label>
+                                        <input type="text" name="NamaBelakang" class="form-control" id="NamaBelakang" placeholder="Nama Belakang">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="NIK">NIK</label>
+                                        <input type="number" class="form-control" name="NIK" id="NIK" aria-describedby="emailHelp" placeholder="Masukkan NIK">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="kelahiran">Tanggal Lahir</label>
+                                        <input type="date" class="form-control" name="kelahiran" id="kelahiran" aria-describedby="emailHelp" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row jenis-kelamin">
+                                <div class="form-group">
+                                    <label >Jenis Kelamin</label>
+                                    <div class="row">
+                                        <div class="form-check">
+                                            <label class="form-check-label" for="Laki">
+                                              Laki-laki
+                                            </label>
+                                            <input class="form-check-input" type="radio" name="gender" id="Laki" value="option1" >
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label" for="Perempuan">
+                                                Perempuan
+                                            </label>
+                                            <input class="form-check-input" type="radio" name="gender" id="Perempuan" value="option2">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="form-group">
-                              <label for="exampleInputEmail1" for="email">Username / Email</label>
-                              <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                <label for="exampleInputEmail1" for="email">Email</label>
+                                <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                             </div>
                             <div class="form-group">
-                              <label for="exampleInputPassword1">Password</label>
-                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                             </div>
                             
-                            <button type="submit" class="btn btn-primary">MASUK</button>
-                            <small id="forgot" class="form-text text-muted">Belum Punya Akun ? <a href="#">Daftar</a></small>
+                            <a href="signup-next.html">
+                                <button type="button" class="btn btn-primary" >LANJUT</button>
+                            </a>
+                            <small id="forgot" class="form-text text-muted">Sudah Punya Akun ? <a href="signin.html">Masuk</a></small>
 
-                          </form>
+                        </form>
 
                     </div>
                     
