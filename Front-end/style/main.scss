@@ -1,0 +1,20 @@
+@import "../templates/bootstrap/scss/bootstrap.scss";
+
+@import "navbar";
+@import "footer";
+
+@import "pages/home";
+@import "pages/signin";
+@import "pages/dashboard";
+@import "pages/settings";
+@import "pages/umkm";
+@import "pages/umkm-detail";
+@import "pages/signup";
+@import "pages/signup-next";
+@import "pages/umkm-create";
+@import "pages/eksplorasi";
+@import "pages/warga";
+
+@import "transitions/silde-fade";
+
+

@@ -1,0 +1,64 @@
+.eksplorasi-page {
+  //Hero Section
+  .section-hero {
+    background-image: url(../../../Files/components/homepage/bg-hero.png);
+    min-height: 860px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+
+    .kiri {
+      img {
+        height: 360px;
+      }
+    }
+
+    .kanan {
+      margin-top: 100px;
+      padding-left: 60px;
+      p {
+        color: white;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 700;
+        font-size: 46px;
+      }
+
+      .mulai {
+        padding: 10px 25px;
+        border-radius: 3px;
+        background: rgb(0, 255, 174);
+        box-shadow: 0px 0px 5px #474747;
+        margin-right: 36px;
+        margin-top: 52px;
+        color: black;
+
+        &:hover {
+          background-color: rgb(29, 255, 240);
+          font-weight: 500;
+          box-shadow: 0px 0px 5px #00dcec;
+        }
+      }
+
+      .eksplorasi {
+        color: rgb(155, 0, 103);
+        padding: 10px 25px;
+        border-radius: 3px;
+        background: #a7efff;
+        box-shadow: 0px 0px 5px #47768a;
+        margin-top: 52px;
+        &:hover {
+          color: #00dcec;
+          background-color: rgb(255, 255, 255);
+          font-weight: 500;
+          box-shadow: 0px 0px 5px #00dcec;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .section-hero {
+      margin-top: -300px !important;
+    }
+  }
+}
