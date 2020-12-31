@@ -10908,7 +10908,7 @@ html {
 }
 
 .home-page .section-hero {
-  background-image: url(../../../Files/components/homepage/bg-hero.png);
+  background-image: url(../../Files/components/homepage/bg-hero.png);
   min-height: 860px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11019,7 +11019,7 @@ html {
 
 .home-page .section-about-us {
   padding-top: 50px;
-  background-image: url(../../../Files/components/homepage/bg-about.png);
+  background-image: url(../../Files/components/homepage/bg-about.png);
   -webkit-filter: drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.16));
           filter: drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.16));
   min-height: 1200px;
@@ -11338,7 +11338,7 @@ html {
 }
 
 .dashboard-page .section-hero {
-  background-image: url(../../../Files/components/homepage/bg-hero.png);
+  background-image: url(../../Files/components/homepage/bg-hero.png);
   min-height: 860px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11449,7 +11449,7 @@ html {
 
 .dashboard-page .section-about-us {
   padding-top: 50px;
-  background-image: url(../../../Files/components/homepage/bg-about.png);
+  background-image: url(../../Files/components/homepage/bg-about.png);
   -webkit-filter: drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.16));
           filter: drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.16));
   min-height: 1200px;
@@ -12043,7 +12043,7 @@ html {
 }
 
 .eksplorasi-page .section-hero {
-  background-image: url(../../../Files/components/homepage/bg-hero.png);
+  background-image: url(../../Files/components/homepage/bg-hero.png);
   min-height: 860px;
   background-repeat: no-repeat;
   background-size: cover;
